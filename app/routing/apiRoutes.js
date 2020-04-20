@@ -13,7 +13,7 @@ module.exports = function(app) {
         var userResponses = userInput.scores;
         // console.log('userResponses = ' + userResponses);
 
-        // Compute best friend matchs
+        // Compute best friend match
         var matchName = '';
         var matchImage = '';
         var totalDifference = 10000; // Make the initial value big for comparison
